@@ -18,7 +18,7 @@ class FileCopy {
             file2.close();
             result.close();
         }catch(FileNotFoundException e){
-            e.printStackTrace();
+            System.out.println("Check for filre existance");
         } catch (Exception e) {
             e.printStackTrace();
         }
